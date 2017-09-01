@@ -68,7 +68,7 @@
         "use_rpc": true,
         "rpc_key": "ORGID",
         "api_key": "APIKEY",
-        "connection_string": "hybrid.cloud.tyk.io:9090",
+        "connection_string": "MDCB",
         "enable_rpc_cache": true,
         "bind_to_slugs": USESLUGS
     },

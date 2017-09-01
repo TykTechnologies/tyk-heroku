@@ -33,6 +33,10 @@
     "ORGID": {
       "description": "Your Tyk Cloud Organisation ID (found in the dashboard)"
     },
+    "MDCB": {
+      "description": "Your Tyk MDCB endpoint (change only if required)",
+      "value": "hybrid.cloud.tyk.io:9090"
+    },
     "SECRET": {
       "description": "The secret key to use for the Tyk REST API",
       "generator": "secret"

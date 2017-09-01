@@ -21,6 +21,7 @@ sed -i 's/APIKEY/'$APIKEY'/g' $TYKCONFPATH
 sed -i 's/REDISHOST/'$REDISHOST'/g' $TYKCONFPATH
 sed -i 's/REDISUSER/'$REDISUSER'/g' $TYKCONFPATH
 sed -i 's/REDISPW/'$REDISPW'/g' $TYKCONFPATH
+sed -i 's/MDCB/'$MDCB'/g' $TYKCONFPATH
 
 
 if [ -z "$BINDSLUG" ]; then

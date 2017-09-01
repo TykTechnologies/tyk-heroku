@@ -1,1 +1,1 @@
-web: sh heroku_entrypoint.sh
+web: env BINDSLUG=1 sh run.sh

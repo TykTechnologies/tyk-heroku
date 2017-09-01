@@ -11,7 +11,7 @@
   ],
   "buildpacks": [
     {
-      "url": "https://github.com/TykTechnologies/tyk-hybrid-docker"
+      "url": "https://github.com/heroku/heroku-buildpack-apt"
     }
   ],
   "formation": {

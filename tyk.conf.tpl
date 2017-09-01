@@ -25,7 +25,7 @@
         "purge_delay": 10,
         "ignored_ips": [],
         "enable_geo_ip": true,
-        "geo_ip_db_path": "./GeoLite2-City.mmdb",
+        "geo_ip_db_path": "/app/GeoLite2-City.mmdb",
         "normalise_urls": {
             "enabled": true,
             "normalise_uuids": true,

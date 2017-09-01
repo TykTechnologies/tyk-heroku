@@ -32,6 +32,6 @@ fi
 
 echo "--> Starting Tyk Hybrid Heroku"
 echo ""
-ch $TYKDIR
+cd $TYKDIR
 ./tyk --conf=$TYKCONFPATH
 

@@ -1,7 +1,7 @@
 {
   "name": "Tyk API Gateway",
   "description": "A better way to manage your APIs",
-  "logo": "https://tyk.io/wp-content/uploads/2016/02/Tyk_Icon_sets_Logo-1.png",
+  "logo": "https://tyk.io/wp-content/themes/bespoke/images/logo.svg",
   "repository": "https://github.com/TykTechnologies/tyk-heroku",
   "webite": "https://tyk.io",
   "success_url": "https://tyk.io/tyk-documentation/get-started/with-tyk-hybrid/tutorials/",
@@ -11,7 +11,7 @@
   ],
   "buildpacks": [
     {
-      "url": "https://github.com/TykTechnologies/tyk-hybrid-docker"
+      "url": "https://github.com/heroku/heroku-buildpack-apt"
     }
   ],
   "formation": {
@@ -32,6 +32,10 @@
     },
     "ORGID": {
       "description": "Your Tyk Cloud Organisation ID (found in the dashboard)"
+    },
+    "MDCB": {
+      "description": "Your Tyk MDCB endpoint (change only if required)",
+      "value": "hybrid.cloud.tyk.io:9090"
     },
     "SECRET": {
       "description": "The secret key to use for the Tyk REST API",

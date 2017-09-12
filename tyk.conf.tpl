@@ -77,7 +77,7 @@
         "cached_session_timeout": 5,
         "cached_session_eviction": 10
     },
-    "enforce_org_quotas": false,
+    "enforce_org_quotas": true,
     "experimental_process_org_off_thread": true,
     "enable_non_transactional_rate_limiter": true,
     "enable_sentinel_rate_limiter": false,
@@ -91,12 +91,12 @@
     },
     "enable_context_vars": true,
     "hostname": "",
-    "enable_api_segregation": false,
+    "enable_api_segregation": true,
     "control_api_hostname": "",
     "enable_custom_domains": true,
     "enable_jsvm": true,
     "coprocess_options": {
-        "enable_coprocess": true
+        "enable_coprocess": false
     },
     "hide_generator_header": false,
     "event_handlers": {
